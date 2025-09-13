@@ -1,0 +1,106 @@
+---
+configuration:
+  norselabs:
+    domain:
+      - 'norselabs.org'
+    subnets:
+      - '10.0.0.0/23'
+    groups:
+      infrastructure:
+        admins:
+          users:
+            borr_burison:
+              user_name:
+                - 'borr.burison'
+              password:
+                - 'Password123!'
+              email:
+                - 'borr.burison@norselabs.org'
+        network_admins:
+          users:
+            odin_borrson:
+              user_name:
+                - 'odin.borrson'
+              password:
+                - 'Password123!'
+              email:
+                - 'odin.borrson@norselabs.org'
+        non_admins:
+          users:
+            thor_odinson:
+              user_name:
+                - 'thor.odinson'
+              password:
+                - 'Password123!'
+              email:
+                - 'thor.odinson@norselabs.org'
+      finance:
+        non_admins:
+          users:
+            baldr_odinson:
+              user_name:
+                - 'baldr.odinson'
+              password:
+                - 'Password123!'
+              email:
+                - 'baldr.odinson@norselabs.org'
+      marketing:
+        non_admins:
+          users:
+            heimdal_odinson:
+              user_name:
+                - 'heimdal.odinson'
+              password:
+                - 'Password123!'
+              email:
+                - 'heimdal.odinson@norselabs.org'
+  herolabs:
+    domain:
+      - 'herolabs.org'
+    subnets:
+      - '10.0.2.0/23'
+    groups:
+      infrastructure:
+        admins:
+          users:
+            tony_stark:
+              user_name:
+                - 'tony.stark'
+              password:
+                - 'Password123!'
+              email:
+                - 'tony.stark@herolabs.org'
+        network_admins:
+          users:
+            natasha_romanoff:
+              user_name:
+                - 'natasha.romanoff'
+              password:
+                - 'Password123!'
+              email:
+                - 'natasha.romanoff@herolabs.org'
+        non_admins:
+          users:
+            peter_parker:
+              user_name:
+                - 'peter.parker'
+              password:
+                - 'Password123!'
+              email:
+                - 'peter.parker@herolabs.org'
+  comiclabs:
+    domain:
+      - 'comiclabs.org'
+    subnets:
+      - '10.0.4.0/23'
+    groups:
+      infrastructure:
+        admins:
+          users:
+            dick_dasterdly:
+              user_name:
+                - 'dick.dasterdly'
+              password:
+                - 'Password123!'
+              email:
+                - 'dick.dasterdly@comiclabs.org'
